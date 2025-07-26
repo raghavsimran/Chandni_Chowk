@@ -1,9 +1,10 @@
 import { useEffect } from 'react';
 import { StyleSheet } from 'react-native';
+
 import Animated, {
   useAnimatedStyle,
   useSharedValue,
-  withRepeat,
+  withRepeat, 
   withSequence,
   withTiming,
 } from 'react-native-reanimated';
