@@ -6,7 +6,13 @@ module.exports = {
   ],
   presets: [require("nativewind/preset")],
   theme: {
-    extend: {},
+    extend: {
+      colors:{ },
+      fontFamily: {
+        'brittany': ['BrittanySignature', 'cursive'],
+        'madi':['MsMadi-Regular', 'cursive'],
+      },
+    },
   },
   plugins: [],
 };
