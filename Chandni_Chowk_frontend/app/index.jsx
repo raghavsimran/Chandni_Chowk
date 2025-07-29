@@ -11,10 +11,10 @@ export default function Index() {
         resizeMode="cover" 
         className="items-center h-full w-full"
       >
-        <View className="mt-24 h-80 w-80 opacity-60 bg-white rounded-3xl pt-8 items-center">
-          <Text className="text-black text-center text-lg">Namaste from</Text>
-          <Text className="text-black text-center text-3xl pt-6 pb-6 font-bold font-madi">Chandni Chowk</Text>
-          <Text className="text-black text-center text-lg">Your voice. Your story.Your shop.</Text>
+        <View className="mt-24 h-80 w-80 bg-white/60 rounded-3xl pt-8 items-center">
+          <Text className="text-black text-center text-xl font-sukar-regular">Namaste from</Text>
+          <Text className="text-black text-center text-5xl pt-8 pb-8 font-brittany">Chandni Chowk</Text>
+          <Text className="text-black text-center text-xl font-sukar-regular">Your voice. Your story. Your shop.</Text>
         </View>
       </ImageBackground>
     </SafeAreaView>

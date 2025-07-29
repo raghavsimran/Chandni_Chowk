@@ -11,6 +11,9 @@ export default function RootLayout() {
   const [fontsLoaded,error]= useFonts({
     "BrittanySignature": require("../assets/fonts/BrittanySignature.ttf"),
     "MsMadi-Regular": require("../assets/fonts/MsMadi-Regular.ttf"),
+    "Sukar Black": require("../assets/fonts/SukarBlack.ttf"),
+    "Sukar Bold": require("../assets/fonts/SukarBold.ttf"),
+    "Sukar Regular": require("../assets/fonts/SukarRegular.ttf"),
   });
   useEffect(() => {
     if (error) throw error;

@@ -9,8 +9,11 @@ module.exports = {
     extend: {
       colors:{ },
       fontFamily: {
-        'brittany': ['BrittanySignature', 'cursive'],
-        'madi':['MsMadi-Regular', 'cursive'],
+        'brittany': ['BrittanySignature'],
+        'madi': ['MsMadi-Regular'],
+        'sukar-black': ['Sukar Black'],
+        'sukar-bold': ['Sukar Bold'],
+        'sukar-regular': ['Sukar Regular'],
       },
     },
   },
