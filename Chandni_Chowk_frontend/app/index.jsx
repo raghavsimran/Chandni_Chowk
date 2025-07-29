@@ -2,6 +2,8 @@
 import { ImageBackground, View, Text } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import images from "./constants/images";
+import CustomButton from "./components/CustomButton";
+import { router } from "expo-router";
 
 export default function Index() {
   return (
@@ -15,6 +17,7 @@ export default function Index() {
           <Text className="text-black text-center text-xl font-sukar-regular">Namaste from</Text>
           <Text className="text-black text-center text-5xl pt-8 pb-8 font-brittany">Chandni Chowk</Text>
           <Text className="text-black text-center text-xl font-sukar-regular">Your voice. Your story. Your shop.</Text>
+          <CustomButton title="Get Started" onPress={()=>router.replace("/signUp")}/>
         </View>
       </ImageBackground>
     </SafeAreaView>
