@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       colors:{ 
         'form-border': '#EBCEB5',
+        'text-link': '#C9AB6B',
       },
       fontFamily: {
         'brittany': ['BrittanySignature'],
