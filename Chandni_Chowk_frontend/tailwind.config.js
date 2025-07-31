@@ -7,7 +7,9 @@ module.exports = {
   presets: [require("nativewind/preset")],
   theme: {
     extend: {
-      colors:{ },
+      colors:{ 
+        'form-border': '#EBCEB5',
+      },
       fontFamily: {
         'brittany': ['BrittanySignature'],
         'madi': ['MsMadi-Regular'],
