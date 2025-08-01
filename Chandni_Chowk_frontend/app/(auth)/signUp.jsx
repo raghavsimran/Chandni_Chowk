@@ -30,7 +30,7 @@ const signUp = () => {
         <CustomButton title="Sign Up" onPress={()=>router.push("/signIn")}/>
         <View className="flex-row justify-center items-center mt-4">
           <Text className="font-sukar-regular">Already have an account?</Text>
-          <TouchableOpacity onPress={()=>router.push("/signIn")}>
+          <TouchableOpacity onPress={()=>router.replace("/signIn")}>
             <Text className="font-sukar-bold text-text-link ml-2">Log In</Text>
           </TouchableOpacity>
         </View>
