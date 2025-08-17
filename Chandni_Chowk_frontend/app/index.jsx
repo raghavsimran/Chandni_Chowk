@@ -7,7 +7,7 @@ import { router } from "expo-router";
 
 export default function Index() {
   return (
-    <SafeAreaView className="h-full w-full bg-white">
+    <SafeAreaView className="h-full w-full">
       <ImageBackground 
         source={images.welcomeCartBg} 
         resizeMode="cover" 

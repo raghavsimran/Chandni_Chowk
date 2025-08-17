@@ -15,7 +15,7 @@ const signUp = () => {
   const[rePassword,setRePassword]=useState("");
 
   return (
-    <SafeAreaView className="h-full w-full bg-white">
+    <SafeAreaView className="h-full w-full">
       <ImageBackground 
         source={images.gradient} 
         resizeMode="cover" 

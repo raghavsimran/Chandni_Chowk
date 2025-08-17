@@ -13,7 +13,7 @@ const signUp = () => {
   const[password,setPassword]=useState("");
 
   return (
-    <SafeAreaView className="h-full w-full bg-white">
+    <SafeAreaView className="h-full w-full">
       <ImageBackground 
         source={images.gradient} 
         resizeMode="cover" 
@@ -23,6 +23,9 @@ const signUp = () => {
         <Image source={images.wardrobe} className="w-60 h-48" resizeMode='cover' />
         <CustomInputField title="Email" onChangeText={setEmail} />
         <CustomInputField title="Password" onChangeText={setPassword} />
+        <TouchableOpacity onPress={()=> router.replace("/forgotPassword")} className="w-full px-16">
+          <Text className="font-sukar-bold text-text-link text-right">Forgot Password?</Text>
+        </TouchableOpacity>
         <CustomButton title="Sign In" onPress={()=>router.push("/signIn")}/>
         <View className="flex flex-row items-center w-72 mt-4">
           <View className="border-t-[1px] h-0 mr-2 flex-grow"/>
